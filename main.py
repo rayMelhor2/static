@@ -10,7 +10,7 @@ files.sort()
 
 nicknames_path = 'nicknames.json'
 
-nicknames: dict = json.loads(open(nicknames_path,'r+').read())
+nicknames: dict = json.loads(open(nicknames_path,'r+').read()) if os.path.exists(nicknames_path) else dict()
 
 stats = [
     {'UUID':'UserNickname'},
