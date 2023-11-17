@@ -158,3 +158,10 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# McStatParser files
+
+nicknames.json
+ca3a90ad-06fd-4f08-82b7-747a0c297759.json
+test.*
